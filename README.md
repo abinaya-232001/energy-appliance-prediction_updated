@@ -44,10 +44,10 @@ Or run: python src/train.py
 | Model             | MAE (Wh) | RMSE (Wh) | R²      |
 |-------------------|----------|-----------|---------|
 | Linear Regression | 26.33    | 57.36     | 0.5422  |
-| LSTM              | 41.24    | 80.98     | 0.0875  |
-| CNN-LSTM          | 41.36    | 82.41     | 0.0551  |
-| GRU               | 42.88    | 83.05     | 0.0402  |
-| Random Forest     | 65.99    | 96.33     | -0.2912 |
+| LSTM              | 34.79    | 80.81     | 0.0912  |
+| CNN-LSTM          | 42.52    | 82.94     | 0.0428  |
+| GRU               | 51.33    | 88.85     | −0.0986  |
+| Random Forest     | 62.65    | 92.14     | −0.1813 |
 
 Best model: Linear Regression
 Optimization performed using Random Search over 6 configurations.
